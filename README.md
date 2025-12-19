@@ -14,12 +14,14 @@
   This structured design enables transparent study tracking, de-duplication, and auditability throughout the meta-analytic process.
   Only peer-reviewed studies reporting dimension-level ESG indicators and firm-level valuation or performance outcomes were retained, ensuring conceptual consistency and comparability across studies.
   Based on this literature screening and eligibility assessment, the final sample comprises 219 primary studies, which form the empirical basis for effect-size coding and synthesis.
+  
 (2)Main MASEM Analysis
   This folder contains the core analytical components required to estimate the Meta-Analytic Structural Equation Model.
   It includes:
   The integrated meta-analytic correlation matrix, Executable scripts (e.g., Mplus code) implementing the Two-Stage Structural Equation Modeling (TSSEM) procedure, Output files reporting standardized path coefficients, model fit indices, and explained variance.
   The structural model estimates the independent net effects of the environmental, social, and governance dimensions on firm market valuation, while controlling for firm size, firm age, and leverage.
   All results reported in Figure 2 and Tables 2–3 can be reproduced directly using the files in this folder.
+  
 (3)Robustness Checks
   This folder documents the robustness and validation procedures applied to the main findings.
   Specifically, it includes materials for:
