@@ -1,10 +1,12 @@
 1.Repository Overview
+ 
   This repository provides the complete empirical foundation and analytical materials for the study
   “Governance as the Valuation Anchor of ESG: Evidence of Green Capital Recalibration from a Meta-Analytic SEM.”
   It is designed to ensure transparency, traceability, and full replicability of the Meta-Analytic Structural Equation Modeling (MASEM) process.
   The repository is organized to reflect the sequential stages of the research workflow, from study identification and coding to structural estimation and robustness validation.
 
 2.Folder Structure and Description
+
 (1)Meta-Analysis Literature List
   This folder contains the study-level master database used for the systematic review and meta-analysis.
   Rather than a simple bibliography, this file constitutes the primary empirical inventory underlying all subsequent analyses.
@@ -30,4 +32,5 @@
   Across all robustness checks, the core conclusions remain stable: governance exhibits the strongest valuation effect, environmental performance is discounted, and social performance does not show an independent pricing effect once cross-dimensional dependencies are accounted for.
 
 3.Replicability Statement
+ 
   All data files are organized at the study level and are linked consistently through unique identifiers, allowing researchers to replicate the full empirical workflow—from literature screening and effect-size synthesis to structural estimation and robustness testing—using the provided correlation matrices and scripts.
