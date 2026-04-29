@@ -24,6 +24,7 @@ In Stage 1, effect sizes were transformed using Fisher’s z and synthesized und
   All reported structural coefficients, model fit indices, and explained variance statistics can be reproduced directly using the scripts and correlation matrices provided in this section.
 
 3. Robustness and Validation Procedures
+
 This component documents the stability of the structural findings under alternative specifications and bias diagnostics.
 The robustness materials include:
 (1)Sensitivity analyses using the Sample-Adjusted Meta-Analytic Deviancy (SAMD) statistic to identify influential effect sizes and re-estimate the structural model following their removal. 
