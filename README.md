@@ -1,24 +1,27 @@
 Repository Overview
 
-This repository provides the complete empirical infrastructure supporting the study “Disentangling the Differentiated Valuation Relevance of ESG Dimensions: Global Evidence from Meta-Analytic Structural Equation Modeling”
+This repository provides the complete empirical infrastructure for the study, “Disentangling the Differentiated Valuation Relevance of ESG Dimensions: Global Evidence from Meta-Analytic Structural Equation Modeling.” It is designed to ensure methodological transparency, analytical traceability, and full computational replicability of the two-stage Meta-Analytic Structural Equation Modeling (MASEM) framework implemented in the paper.
 
-The repository is designed to ensure methodological transparency, analytical traceability, and full computational replicability of the two-stage Meta-Analytic Structural Equation Modeling (MASEM) framework employed in the paper. It mirrors the sequential logic of the research design, beginning with systematic literature identification and effect-size extraction, proceeding to correlation matrix construction, and culminating in multivariate structural estimation and robustness validation.
+The repository follows the sequential logic of the research design. It begins with systematic literature identification and effect-size extraction, proceeds to the construction of the meta-analytic correlation matrix, and culminates in multivariate structural estimation and robustness validation. Rather than functioning as a supplementary archive, the repository serves as the structured empirical backbone of the study.
 
 Rather than serving as a supplementary archive, the repository constitutes the structured empirical backbone of the study’s differentiated ESG valuation analysis.
 
 Repository Structure
 
-The repository is organized into three interconnected components corresponding to the core stages of the empirical workflow.
+The repository is organized into three interrelated components corresponding to the main stages of the empirical workflow.
+
 1. Meta-Analytic Literature Database
-This component contains the structured master dataset underlying the systematic review and quantitative synthesis. Each primary study is assigned a unique Research ID to ensure consistent linkage across coding records, extracted effect sizes, and subsequent diagnostics.
-The database records bibliographic information, ESG dimensional operationalization, valuation proxies, and sample characteristics. Only peer-reviewed empirical studies reporting standalone environmental, social, and governance indicators in relation to firm-level market valuation were retained. Studies relying exclusively on composite ESG scores without dimensional decomposition were excluded to preserve the structural independence necessary for disentangling valuation effects across ESG components.
-Following PRISMA-guided screening and eligibility assessment, 219 primary studies were included, contributing 1,445 independent effect sizes. These effect sizes form the quantitative basis for the meta-analytic integration and structural modeling procedures.
+
+  This component contains the master dataset underlying the systematic review and quantitative synthesis. Each primary study is assigned a unique Research ID to ensure consistent linkage across coding records, extracted effect sizes, and subsequent diagnostic procedures.
+  The database documents bibliographic information, ESG dimensional operationalization, valuation measures, and sample characteristics. Only peer-reviewed empirical studies reporting standalone environmental, social, and governance indicators in relation to firm-level market valuation were retained. Studies relying exclusively on composite ESG scores without dimensional decomposition were excluded in order to preserve the structural independence required to identify differentiated valuation effects across ESG dimensions.
+  Following PRISMA-guided screening and eligibility assessment, 219 primary studies were included, contributing 1,445 independent effect sizes. These effect sizes constitute the empirical basis for the subsequent meta-analytic synthesis and structural modeling.
 
 2. Main Meta-Analytic Structural Equation Modeling (MASEM) Analysis
-This component contains the analytical infrastructure required to reproduce the two-stage structural estimation.
-In Stage 1, effect sizes were transformed using Fisher’s Z and synthesized under a random-effects specification to construct the integrated meta-analytic correlation matrix. The pooled matrix incorporates associations among environmental, social, and governance dimensions, firm market valuation, and firm-level covariates. A harmonic mean sample size was applied to ensure statistical compatibility across heterogeneous primary samples.
-In Stage 2, a structural equation model was estimated to isolate the independent net effects of each ESG dimension on corporate market valuation while explicitly modeling cross-dimensional interdependencies and controlling for firm size, firm age, and leverage. This multivariate framework enables the disentangling of dimension-specific valuation pathways that are obscured in bivariate analyses due to high covariance among ESG components.
-All reported structural coefficients, model fit indices, and explained variance statistics can be replicated directly using the scripts and correlation matrices provided in this folder.
+
+  This component contains the analytical files necessary to reproduce the two-stage structural estimation.
+In Stage 1, effect sizes were transformed using Fisher’s z and synthesized under a random-effects specification to construct the integrated meta-analytic correlation matrix. The pooled matrix captures the associations among the environmental, social, and governance dimensions, firm market valuation, and firm-level covariates. A harmonic mean sample size was used to ensure statistical compatibility across heterogeneous primary samples.
+  In Stage 2, a structural equation model was estimated to identify the independent net effects of each ESG dimension on firm market valuation while explicitly accounting for cross-dimensional interdependence and controlling for firm size, firm age, and leverage. This multivariate design allows the study to disentangle dimension-specific valuation pathways that are obscured in conventional bivariate analyses due to the high covariance among ESG components.
+  All reported structural coefficients, model fit indices, and explained variance statistics can be reproduced directly using the scripts and correlation matrices provided in this section.
 
 3. Robustness and Validation Procedures
 This component documents the stability of the structural findings under alternative specifications and bias diagnostics.
@@ -33,7 +36,15 @@ These results confirm that the differentiated valuation configuration is not dri
 
 Replicability Statement
 
-All datasets are organized at the study level and linked through unique Research IDs, enabling full reconstruction of the empirical workflow. Researchers can replicate:
-Systematic literature screening and eligibility filtering; Effect-size extraction and Fisher’s Z transformation; Random-effects meta-analytic synthesis; Construction of the integrated correlation matrix; Two-stage structural equation modeling estimation; Outlier diagnostics and publication bias correction
+All datasets are organized at the study level and linked through unique Research IDs, enabling full reconstruction of the empirical workflow. Using the materials provided in this repository, researchers can replicate:
+
+the PRISMA-based literature screening and final study selection process;
+the coding and organization of the study-level meta-analytic database;
+the extraction and transformation of effect sizes into Fisher’s z metrics;
+the construction of the pooled random-effects meta-analytic correlation matrix;
+the two-stage MASEM estimation of the differentiated net effects of environmental, social, and governance dimensions on firm market valuation; and
+the full set of robustness checks, sensitivity analyses, and publication-bias diagnostics reported in the study.
+
+Taken together, these materials provide a transparent and reproducible empirical foundation for evaluating the differentiated valuation relevance of ESG dimensions in global capital markets.
 
 By providing pooled correlation matrices, effective sample size specifications, and executable structural scripts, this repository ensures computational transparency and full reproducibility of the disentangled ESG valuation framework developed in the study.
